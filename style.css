@@ -8,21 +8,50 @@ body {
     padding: 0%;
 }
 
-section {
-    display: block;
-}
+
 
 .header, .hero {
     background-color: #1F2937;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 75px;
+    display: flex;
+    position: fixed;
+    align-items: center;
     width: 100%;
 }
 
-
+.header img {
+    height: 100%;
+    width: auto;
+}
 
 .header-list {
-    display: inline-flex;
-    list-style: none;
-    padding-left: 0;
-    justify-content: end;
+    display: flex;
+    position: absolute;
+    gap: 2rem;
     align-items: center;
+    right: 20px;
+
 }
+
+img {
+    display: block;
+}
+
+
+
+.hero {
+    margin-top: 75px;
+}
+
+.pages {
+    background-color: blue;
+}
+
