@@ -8,7 +8,10 @@ body {
     padding: 0%;
 }
 
-
+figure {
+    margin: 0;
+    padding: 0;
+}
 
 .header, .hero {
     background-color: #1F2937;
@@ -30,6 +33,7 @@ h1, h2, h3, h4, h5 {
 .header img {
     height: 100%;
     width: auto;
+    margin-left: 10px;
 }
 
 .header-list {
@@ -48,10 +52,14 @@ img {
 
 
 .hero {
-    margin-top: 75px;
+    padding-top: 75px;
 }
 
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
 .pages {
-    background-color: blue;
+    
 }
 
