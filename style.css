@@ -49,12 +49,26 @@ img {
     display: block;
 }
 
-
+.hero button {
+    background-color: blue;
+    border: none;
+    padding: 10px;
+    margin-left: 5px;
+}
 
 .hero {
     padding-top: 75px;
+    padding: 12%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
 }
 
+.hero img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 4rem;
+}
 .hero h1 {
     font-size: 48px;
     color: #F9FAF8;
