@@ -73,13 +73,13 @@ h1, h2, h3, h4, h5 {
     padding: 12%;
     display: flex;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .hero img {
-    max-width: 500px;
+    max-width: 700px;
     height: auto;
-    border-radius: 4rem;
+    border-radius: 1rem;
 }
 .hero h1 {
     font-size: 48px;
@@ -95,13 +95,14 @@ h1, h2, h3, h4, h5 {
 .pages {
     text-align: center;
     padding-top: 15px;
+    margin-bottom: 30px;
 }
 
 .flex {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
     padding-bottom: 50px;
 }
 
@@ -117,4 +118,5 @@ h1, h2, h3, h4, h5 {
     font-weight: bold;
     color: #1F2937;
     padding: 20px;
+    margin-bottom: 20px;
 }
